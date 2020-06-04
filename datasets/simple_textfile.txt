@@ -1,0 +1,23 @@
+In the early days, many language-processing systems were designed by hand-coding a set of rules:[9][10] such as by writing grammars or devising heuristic rules for stemming.
+
+Since the so-called "statistical revolution"[11][12] in the late 1980s and mid-1990s, much natural language processing research has relied heavily on machine learning. 
+The machine-learning paradigm calls instead for using statistical inference to automatically learn such rules through the analysis of large corpora (the plural form of corpus, 
+is a set of documents, possibly with human or computer annotations) of typical real-world examples.
+
+Many different classes of machine-learning algorithms have been applied to natural-language-processing tasks. These algorithms take as input a large set of "features" that are
+ generated from the input data. Some of the earliest-used algorithms, such as decision trees, produced systems of hard if-then rules similar to the systems of handwritten rules
+ that were then common. Increasingly, however, research has focused on statistical models, which make soft, probabilistic decisions based on attaching real-valued weights to each 
+ input feature. Such models have the advantage that they can express the relative certainty of many different possible answers rather than only one, producing more reliable results
+ when such a model is included as a component of a larger system.
+
+Systems based on machine-learning algorithms have many advantages over hand-produced rules:
+
+The learning procedures used during machine learning automatically focus on the most common cases, whereas when writing rules by hand it is often not at all obvious where the effort 
+should be directed.
+Automatic learning procedures can make use of statistical inference algorithms to produce models that are robust to unfamiliar input (e.g. containing words or structures that have not
+ been seen before) and to erroneous input (e.g. with misspelled words or words accidentally omitted). Generally, handling such input gracefully with handwritten rules, or, more generally,
+ creating systems of handwritten rules that make soft decisions, is extremely difficult, error-prone and time-consuming.
+Systems based on automatically learning the rules can be made more accurate simply by supplying more input data. However, systems based on handwritten rules can only be made more 
+accurate by increasing the complexity of the rules, which is a much more difficult task. In particular, there is a limit to the complexity of systems based on handcrafted rules, beyond 
+which the systems become more and more unmanageable. However, creating more data to input to machine-learning systems simply requires a corresponding increase in the number of man-hours 
+worked, generally without significant increases in the complexity of the annotation process.
